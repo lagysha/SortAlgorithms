@@ -1,4 +1,4 @@
-# Sort algorithms and their Сomparison
+# Sort Algorithms and their Сomparison
 
 - ✅ BubbleSort
 - ✅ InsertionSort
