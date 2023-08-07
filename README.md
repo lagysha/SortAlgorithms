@@ -1,4 +1,4 @@
-# Sort algorithms and their compression
+# Sort algorithms and their Compression
 
 - ✅ BubbleSort
 - ✅ InsertionSort
