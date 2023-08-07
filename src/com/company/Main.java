@@ -11,8 +11,9 @@ public class Main {
     public static void main(String[] args) {
         HashMap<Double,String > nums = new HashMap<>();
         Random random = new Random();
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
+        //Scanner scanner = new Scanner(System.in);
+        //int number = scanner.nextInt();
+        int number = 100_000;
         int[] numbers  = new int[number];
         ////////////////////////////////////////////////
         for (int i = 0; i < numbers.length; i++) {
@@ -42,7 +43,7 @@ public class Main {
         }
         //System.out.println(Arrays.toString(numbers));
         long m3 = System.nanoTime();
-        //BasicSort.bubbleSort(numbers);
+        BasicSort.bubbleSort(numbers);
         long n3 = System.nanoTime();
        // System.out.println(Arrays.toString(numbers));
         double num3 = (double)(n3-m3)/1000000;
@@ -53,7 +54,7 @@ public class Main {
         }
        // System.out.println(Arrays.toString(numbers));
         long m4 = System.nanoTime();
-       //BasicSort.insertionSort(numbers);
+       BasicSort.insertionSort(numbers);
         long n4 = System.nanoTime();
         //System.out.println(Arrays.toString(numbers));
         System.out.println();
@@ -65,7 +66,7 @@ public class Main {
         }
         //System.out.println(Arrays.toString(numbers));
         long m5 = System.nanoTime();
-       //BasicSort.selectionSort(numbers);
+       BasicSort.selectionSort(numbers);
         long n5 = System.nanoTime();
        //System.out.println(Arrays.toString(numbers));
         double num5 = (double)(n5-m5)/1000000;
